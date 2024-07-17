@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E957F5B82C46EFB5000D811D /* ChooseMainCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957F5B72C46EFB5000D811D /* ChooseMainCurrencyViewModel.swift */; };
+		E957F5BB2C471733000D811D /* SymbolsRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957F5BA2C471733000D811D /* SymbolsRemote.swift */; };
 		E9603F802C4342DD0049A98C /* expensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603F7F2C4342DD0049A98C /* expensesApp.swift */; };
 		E9603F822C4342DD0049A98C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603F812C4342DD0049A98C /* ContentView.swift */; };
 		E9603F842C4342DE0049A98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9603F832C4342DE0049A98C /* Assets.xcassets */; };
 		E9603F872C4342DE0049A98C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9603F862C4342DE0049A98C /* Preview Assets.xcassets */; };
+		E9603F8F2C4346300049A98C /* ChooseMainCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603F8E2C4346300049A98C /* ChooseMainCurrencyView.swift */; };
+		E9603F992C46C1440049A98C /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603F982C46C1440049A98C /* Dependencies.swift */; };
+		E9603F9F2C46C25C0049A98C /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603F9E2C46C25C0049A98C /* Symbol.swift */; };
+		E9603FA12C46CF9D0049A98C /* RemoteSymbolsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603FA02C46CF9D0049A98C /* RemoteSymbolsDataSource.swift */; };
+		E9603FA32C46CF9D0049A98C /* Keystore.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9603FA22C46CF9D0049A98C /* Keystore.plist */; };
+		E9603FA52C46CF9D0049A98C /* Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9603FA42C46CF9D0049A98C /* Keystore.swift */; };
+		E9EC01F22C46D888004C0D5D /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = E9EC01F12C46D888004C0D5D /* Resolver */; };
+		E9EC01F42C46D888004C0D5D /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = E9EC01F32C46D888004C0D5D /* Resolver-Static */; };
+		E9EC01F62C46E15C004C0D5D /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC01F52C46E15C004C0D5D /* RemoteDataSource.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E98E5BB82C46D30B00CBAFA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E957F5B72C46EFB5000D811D /* ChooseMainCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMainCurrencyViewModel.swift; sourceTree = "<group>"; };
+		E957F5B92C4713B4000D811D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E957F5BA2C471733000D811D /* SymbolsRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRemote.swift; sourceTree = "<group>"; };
 		E9603F7C2C4342DD0049A98C /* expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9603F7F2C4342DD0049A98C /* expensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expensesApp.swift; sourceTree = "<group>"; };
 		E9603F812C4342DD0049A98C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9603F832C4342DE0049A98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9603F862C4342DE0049A98C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9603F8E2C4346300049A98C /* ChooseMainCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMainCurrencyView.swift; sourceTree = "<group>"; };
+		E9603F982C46C1440049A98C /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		E9603F9E2C46C25C0049A98C /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		E9603FA02C46CF9D0049A98C /* RemoteSymbolsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSymbolsDataSource.swift; sourceTree = "<group>"; };
+		E9603FA22C46CF9D0049A98C /* Keystore.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keystore.plist; sourceTree = "<group>"; };
+		E9603FA42C46CF9D0049A98C /* Keystore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keystore.swift; sourceTree = "<group>"; };
+		E9EC01F52C46E15C004C0D5D /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +60,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EC01F42C46D888004C0D5D /* Resolver-Static in Frameworks */,
+				E9EC01F22C46D888004C0D5D /* Resolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E957F5B52C46EF8E000D811D /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E957F5B72C46EFB5000D811D /* ChooseMainCurrencyViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
 		E9603F732C4342DD0049A98C = {
 			isa = PBXGroup;
 			children = (
 				E9603F7E2C4342DD0049A98C /* expenses */,
 				E9603F7D2C4342DD0049A98C /* Products */,
+				E9EC01EE2C46D846004C0D5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +96,16 @@
 		E9603F7E2C4342DD0049A98C /* expenses */ = {
 			isa = PBXGroup;
 			children = (
+				E957F5B92C4713B4000D811D /* Info.plist */,
+				E957F5B52C46EF8E000D811D /* viewModels */,
+				E9603F9D2C46C2120049A98C /* entities */,
+				E9603F9A2C46C1E80049A98C /* data */,
+				E9603F972C434BDC0049A98C /* di */,
+				E9603F8D2C43458E0049A98C /* views */,
 				E9603F7F2C4342DD0049A98C /* expensesApp.swift */,
-				E9603F812C4342DD0049A98C /* ContentView.swift */,
 				E9603F832C4342DE0049A98C /* Assets.xcassets */,
 				E9603F852C4342DE0049A98C /* Preview Content */,
+				E9603FA22C46CF9D0049A98C /* Keystore.plist */,
 			);
 			path = expenses;
 			sourceTree = "<group>";
@@ -67,6 +118,65 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E9603F8D2C43458E0049A98C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E9603F812C4342DD0049A98C /* ContentView.swift */,
+				E9603F8E2C4346300049A98C /* ChooseMainCurrencyView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E9603F972C434BDC0049A98C /* di */ = {
+			isa = PBXGroup;
+			children = (
+				E9603F982C46C1440049A98C /* Dependencies.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		E9603F9A2C46C1E80049A98C /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E9603F9C2C46C2030049A98C /* remote */,
+				E9603F9B2C46C1FD0049A98C /* local */,
+				E9603FA42C46CF9D0049A98C /* Keystore.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E9603F9B2C46C1FD0049A98C /* local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		E9603F9C2C46C2030049A98C /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				E9603FA02C46CF9D0049A98C /* RemoteSymbolsDataSource.swift */,
+				E9EC01F52C46E15C004C0D5D /* RemoteDataSource.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		E9603F9D2C46C2120049A98C /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				E9603F9E2C46C25C0049A98C /* Symbol.swift */,
+				E957F5BA2C471733000D811D /* SymbolsRemote.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		E9EC01EE2C46D846004C0D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +187,17 @@
 				E9603F782C4342DD0049A98C /* Sources */,
 				E9603F792C4342DD0049A98C /* Frameworks */,
 				E9603F7A2C4342DD0049A98C /* Resources */,
+				E98E5BB82C46D30B00CBAFA2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = expenses;
+			packageProductDependencies = (
+				E9EC01F12C46D888004C0D5D /* Resolver */,
+				E9EC01F32C46D888004C0D5D /* Resolver-Static */,
+			);
 			productName = expenses;
 			productReference = E9603F7C2C4342DD0049A98C /* expenses.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +226,9 @@
 				Base,
 			);
 			mainGroup = E9603F732C4342DD0049A98C;
+			packageReferences = (
+				E92C52E62C46D9D700E3EE78 /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
 			productRefGroup = E9603F7D2C4342DD0049A98C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +245,7 @@
 			files = (
 				E9603F872C4342DE0049A98C /* Preview Assets.xcassets in Resources */,
 				E9603F842C4342DE0049A98C /* Assets.xcassets in Resources */,
+				E9603FA32C46CF9D0049A98C /* Keystore.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EC01F62C46E15C004C0D5D /* RemoteDataSource.swift in Sources */,
+				E9603F992C46C1440049A98C /* Dependencies.swift in Sources */,
+				E9603F9F2C46C25C0049A98C /* Symbol.swift in Sources */,
+				E957F5BB2C471733000D811D /* SymbolsRemote.swift in Sources */,
+				E9603FA52C46CF9D0049A98C /* Keystore.swift in Sources */,
+				E9603FA12C46CF9D0049A98C /* RemoteSymbolsDataSource.swift in Sources */,
+				E9603F8F2C4346300049A98C /* ChooseMainCurrencyView.swift in Sources */,
 				E9603F822C4342DD0049A98C /* ContentView.swift in Sources */,
 				E9603F802C4342DD0049A98C /* expensesApp.swift in Sources */,
+				E957F5B82C46EFB5000D811D /* ChooseMainCurrencyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +402,13 @@
 				DEVELOPMENT_TEAM = 2HF56WJ394;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = expenses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +433,13 @@
 				DEVELOPMENT_TEAM = 2HF56WJ394;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = expenses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +475,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E92C52E62C46D9D700E3EE78 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9EC01F12C46D888004C0D5D /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E92C52E62C46D9D700E3EE78 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		E9EC01F32C46D888004C0D5D /* Resolver-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E92C52E62C46D9D700E3EE78 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = "Resolver-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9603F742C4342DD0049A98C /* Project object */;
 }

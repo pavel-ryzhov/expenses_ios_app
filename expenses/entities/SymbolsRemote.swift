@@ -7,10 +7,13 @@
 
 import Foundation
 
-struct SymbolRemote {
+struct SymbolsRemote: Decodable {
+    
     let success: Bool
     let terms, privacy: String
     let currencies: [String: String]
     
-    
+    func toSymbols() -> [Symbol] {
+        return currencies.map { Symbol(code: $0, descr: $1) }
+    }
 }
