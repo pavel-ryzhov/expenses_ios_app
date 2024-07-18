@@ -11,9 +11,8 @@ import Resolver
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+//            ContentView1()
             ChooseMainCurrencyView()
-        }
     }
 }
 
